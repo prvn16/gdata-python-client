@@ -418,9 +418,9 @@ def main():
                                     --debug [prints debug info if set]"""
     sys.exit(2)
 
-  site = None
-  domain = None
-  debug = False
+  site = "sumpurn-en"
+  domain = "sumpurn.com"
+  debug = True
 
   for option, arg in opts:
     if option == '--site':
