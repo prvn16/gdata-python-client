@@ -195,6 +195,15 @@ def main():
   sample = SimpleCRUD(user, pw)
   sample.Run()
 
+def runSample() :
+  user = "praveen.bhatia@sumpurn.com"
+  pwd = "Krishna16"
+
+  sample = SimpleCRUD(user, pwd)
+  sample.Run()
+
+
 
 if __name__ == '__main__':
-  main()
+  #main()
+  runSample()

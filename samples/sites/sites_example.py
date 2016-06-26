@@ -41,8 +41,8 @@ MAIN_MENU = ['1)  List site content',
              "11) List site's sharing permissions",
              '12) Change settings',
              '13) Exit']
-SETTINGS_MENU = ['1) Change current site.',
-                 '2) Change domain.']
+SETTINGS_MENU = ['1) Change current site.','2) Change domain.']
+
 
 
 class SitesExample(object):
